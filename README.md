@@ -48,22 +48,7 @@ This required designing the hardware interface (including voltage dividers) and 
 
 ---
 
-## 📜 Example Code Snippet
-
-
-## 📸 Images
-
-**Schematics**  
-![Schematics](schematics.png)
-
-**Top View**  
-![Top View](top-view.png)
-
-**Bottom View**  
-![Bottom View](bottom-view.png)
-
-**3D View**  
-![3D View](3d-view.png)
+![ADS1298](ADS1298.png)
 
 ---
 
