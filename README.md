@@ -23,6 +23,21 @@ This required designing the hardware interface (including voltage dividers) and 
 
 ---
 
+## 🛠 About the SPI Registers Configured
+
+- **CONFIG1** – Controls the **sampling rate** and enables/disables certain operating modes.  
+  For example, it sets how many samples per second (SPS) are captured from the ECG/EEG inputs.
+
+- **CONFIG2** – Manages **internal test signals** and **reference buffer settings**.  
+  It allows enabling test waveforms for debugging and configuring how the reference voltage is handled.
+
+- **CONFIG3** – Controls the **internal reference voltage source** and **lead-off detection circuitry**.  
+  Lead-off detection helps identify if an electrode connection to the patient is loose or missing.
+
+These settings define the basic operating conditions of the ADS1298 and are essential for accurate signal acquisition.
+
+---
+
 ## 🔌 Pin Configuration
 
 | Arduino Mega Pin (Master) | ADS1298RECG-FE Pin (Slave) |
