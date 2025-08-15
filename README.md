@@ -25,16 +25,16 @@ This required designing the hardware interface (including voltage dividers) and 
 
 ## 🔌 Pin Configuration
 
-| Arduino Mega Pin | ADS1298RECG-FE Pin |
-|------------------|-------------------|
-| 52 (SCK)         | J3.3 (SCLK)       |
-| 51 (MOSI)        | J3.11 (DIN)       |
-| 50 (MISO)        | J3.13 (DOUT)      |
-| 53 (SS)          | J3.7 (CS)         |
-| 3 (Interrupt)    | J3.15 (DRDY)      |
-| 5V               | J4.10             |
-| 3.3V             | J4.9              |
-| GND              | J4.5, J3.4        |
+| Arduino Mega Pin (Master) | ADS1298RECG-FE Pin (Slave) |
+|---------------------------|----------------------------|
+| 52 (SCK)                  | J3.3 (SCLK)                |
+| 51 (MOSI)                 | J3.11 (DIN)                |
+| 50 (MISO)                 | J3.13 (DOUT)               |
+| 53 (SS)                   | J3.7 (CS)                  |
+| 3 (Interrupt)             | J3.15 (DRDY)               |
+| 5V                        | J4.10                      |
+| 3.3V                      | J4.9                       |
+| GND                       | J4.5, J3.4                 |
 
 ---
 
